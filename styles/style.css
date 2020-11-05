@@ -1,8 +1,10 @@
+
+
 * {
      box-sizing: border-box;
 }
 
-a, ul, li, div, nav {
+a, div, nav {
      margin: 0;
      padding: 0;
      border: 0;
@@ -16,34 +18,21 @@ header {
      justify-content: space-between;
 }
 
-a {
-     color: #111;
-     cursor: pointer;
-     text-decoration: none;
-
-}
-
-ul {
-     list-style: none;
-     display: block;
-     padding-inline-start: 10px;
-} 
-
-.nav-flx {
-     display: block;
-     position: relative;
-     width: 500px;
-     float: none;
-     left: 0;
-     right: 0;
-     overflow-x: scroll;
-     overflow-y: hidden;
+nav.scrollmenu {
+     overflow: auto;
      white-space: nowrap;
-     -webkit-overflow-scrolling: touch;
 }
 
-.menu-item {
-     background: transparent;
-     float: left;
-     padding: 5px;
+nav.scrollmenu a {
+     display: inline-block;
+     color: black;
+     text-align: center;
+     padding: 14px;
+     text-decoration: none;
+     
+}
+
+
+nav.scrollmenu a:hover {
+     color: orange;
 }
