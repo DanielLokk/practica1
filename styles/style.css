@@ -3,7 +3,7 @@
 }
 
 body {
-     background-color: #EEEEEE;
+     background-color: #FAFAFA;
 } 
 
 a, div, nav, footer, head {
@@ -31,7 +31,7 @@ div.footer-container {
      height: 5em;
      border-top-left-radius: 50px;
      border-top-right-radius: 50px;
-     background-color: #FFFFFF;
+     background-color: #ffffff;
 }
 
 nav.scrollmenu {
@@ -41,7 +41,7 @@ nav.scrollmenu {
 
 nav.scrollmenu a {
      display: inline-block;
-     color: black;
+     color: #BABABA;
      text-align: center;
      padding: 14px;
      text-decoration: none;
