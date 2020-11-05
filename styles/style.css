@@ -1,10 +1,12 @@
-
-
 * {
      box-sizing: border-box;
 }
 
-a, div, nav {
+body {
+     background-color: #EEEEEE;
+} 
+
+a, div, nav, footer, head {
      margin: 0;
      padding: 0;
      border: 0;
@@ -18,6 +20,20 @@ header {
      justify-content: space-between;
 }
 
+footer {
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+     left: 0;
+}
+
+div.footer-container {
+     height: 5em;
+     border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+     background-color: #FFFFFF;
+}
+
 nav.scrollmenu {
      overflow: auto;
      white-space: nowrap;
@@ -29,9 +45,7 @@ nav.scrollmenu a {
      text-align: center;
      padding: 14px;
      text-decoration: none;
-     
 }
-
 
 nav.scrollmenu a:hover {
      color: orange;
