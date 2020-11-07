@@ -56,14 +56,18 @@ footer {
      color: orange;
 }
 
-/* div.footer-container {
-     height: 5em;
-     border-top-left-radius: 50px;
-     border-top-right-radius: 50px;
-     background-color: #ffffff;
-
-     
-} */
+.top-bar {
+     display: flex;
+     flex-grow: 1;
+     min-width: 50px;
+     overflow: hidden;
+     white-space: nowrap;
+     align-items: center;
+     -webkit-tap-highlight-color: transparent;
+     transition: background-color 0.1s ease-in-out;
+     color: #BABABA;
+     text-decoration: none;
+}
 
 nav.scrollmenu {
      overflow: auto;
