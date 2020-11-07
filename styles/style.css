@@ -96,11 +96,11 @@ img.nav-icons {
      display: flex;
      flex-direction: column;
      align-items: center;
-     margin-top: 15px;
+     margin-bottom: 6em;
 }
 
-
 section.product-showcase {
+     margin-top: 20px;
      background-image: url('../assets/fonsverd.png');
      background-size: 100% 100%;
      position: relative;
@@ -112,6 +112,11 @@ section.product-showcase {
      justify-content: center;
      align-items: center;
      box-shadow: 0 0 0.2 rgb(0, 0, 0, 0.2);
+}
+
+main h5 {
+     font-family: sans-serif;
+     color: #BABABA;
 }
 
 section.product-showcase img {
