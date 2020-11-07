@@ -56,10 +56,9 @@ footer {
      color: orange;
 }
 
+/* No estic segur encara */
 .top-bar {
      display: flex;
-     flex-grow: 1;
-     min-width: 50px;
      overflow: hidden;
      white-space: nowrap;
      align-items: center;
@@ -67,11 +66,13 @@ footer {
      transition: background-color 0.1s ease-in-out;
      color: #BABABA;
      text-decoration: none;
+     
 }
 
 nav.scrollmenu {
      overflow: auto;
      white-space: nowrap;
+     font-family: 'Mulish', sans-serif;
 }
 
 nav.scrollmenu a {
