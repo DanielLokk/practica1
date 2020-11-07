@@ -6,7 +6,7 @@ body {
      background-color: #FAFAFA;
 } 
 
-a, div, nav, footer, head {
+a, div, nav, footer, head , section, main, img {
      margin: 0;
      padding: 0;
      border: 0;
@@ -89,4 +89,50 @@ nav.scrollmenu a:hover {
 
 img.nav-icons {
      transform: scale(0.10);
+}
+
+main.scroll-products {
+     display: flex;
+     justify-content: center;
+     z-index: 1;
+     margin-top: 15px;
+}
+
+section.product-showcase {
+     background-image: url('../assets/fonsverd.png');
+     background-size: 100% 100%;
+     position: absolute;
+     border-radius: 25px;
+     height: 30%;
+     width: 85%;
+     z-index: 2;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0 0 0.2 rgb(0, 0, 0, 0.2);
+}
+
+section.product-showcase img {
+     width: 90%;
+     height: auto;
+     padding-bottom: 3em;
+}
+
+div.product-description {
+     position: absolute;
+     left: 1.5em;
+     bottom: 1em;
+     font-family: sans-serif;
+     color: white;
+}
+
+span.price {
+     position: absolute;
+     right: 1em;
+     bottom: 1em;
+     color: #ffffff;
+     font-family: sans-serif;
+     font-weight: 100;
+     font-size: 1.75em;
 }
