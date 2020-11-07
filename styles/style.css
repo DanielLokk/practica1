@@ -21,20 +21,49 @@ header {
 }
 
 footer {
-     position: absolute;
+     position: fixed;
      width: 100%;
      bottom: 0;
      left: 0;
+     height: 5em;
+     background-color: #ffffff;
+     display: flex;
+     overflow-x: auto;
+     border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+     box-shadow: 0 0 3px rgb(0, 0, 0, 0.2);
 }
 
-div.footer-container {
+.nav-link {
+     padding-left: 2em;
+     display: flex;
+     flex-grow: 1;
+     min-width: 50px;
+     overflow: hidden;
+     white-space: nowrap;
+     align-items: center;
+     -webkit-tap-highlight-color: transparent;
+     transition: background-color 0.1s ease-in-out;
+     color: #BABABA;
+     text-decoration: none;
+}
+
+.nav-link:hover {
+     background-color: #ffffff;
+}
+
+.nav-link:active {
+     color: orange;
+}
+
+/* div.footer-container {
      height: 5em;
      border-top-left-radius: 50px;
      border-top-right-radius: 50px;
      background-color: #ffffff;
 
      
-}
+} */
 
 nav.scrollmenu {
      overflow: auto;
