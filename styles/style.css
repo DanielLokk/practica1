@@ -28,17 +28,12 @@ footer {
 }
 
 div.footer-container {
-     background-color: aqua;
      height: 5em;
      border-top-left-radius: 50px;
      border-top-right-radius: 50px;
      background-color: #ffffff;
-     justify-content: space-between;
-     padding-top: 5vh;
-}
 
-.footer-container a {
-     padding-left: 10vh;
+     
 }
 
 nav.scrollmenu {
@@ -56,4 +51,8 @@ nav.scrollmenu a {
 
 nav.scrollmenu a:hover {
      color: orange;
+}
+
+img.nav-icons {
+     transform: scale(0.10);
 }
