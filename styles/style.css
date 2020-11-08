@@ -167,7 +167,8 @@ main.product-zoomed {
      display: flex;
      flex-direction: column;
      width: 100%;
-     background-color: #BABABA;
+     font-family: 'Mulish', sans-serif;
+     color: #ffffff;
 }
 
 main.product-zoomed img {
@@ -181,6 +182,33 @@ div.product-price {
      width: 100%;
      height: auto;
      justify-content: space-between;
-     padding: 1em;
+     padding: 2em;
 }
 
+div.version {
+     display: flex;
+     flex-direction: column;
+}
+
+div.price {
+     display: flex;
+     flex-direction: column;
+}
+
+.category {
+     font-size: 4vw;
+}
+
+.response-category {
+     font-size: 7vw;
+}
+
+.response-category i {
+     position: relative;
+     top: 25%;
+}
+
+.response-category.price-tag {
+     position: relative;
+     top: 12%;
+}
