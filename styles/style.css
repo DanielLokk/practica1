@@ -238,7 +238,7 @@ div.description-container {
      background-color: #ffffff;
      width: 100%;
      height: auto;
-     padding: 3em 3em 7em 3em;
+     padding: 1em 3em 7em 3em;
      border-top-left-radius: 50px;
      border-top-right-radius: 50px;
      box-shadow: 0 0 0.2 rgb(0, 0, 0, 0.2);
@@ -250,3 +250,17 @@ div.features {
      justify-content: space-between;
      align-content: center;
 }
+
+.mini-title {
+     font-size: 6vw;
+}
+
+.mini-detail {
+     font-size: 4vw;
+     color: #424242;
+}
+
+h4 {
+     margin-bottom: 2vh;
+}
+
