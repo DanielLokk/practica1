@@ -202,6 +202,7 @@ div.product-price {
      height: auto;
      justify-content: space-between;
      padding: 2em;
+     margin-bottom: 1em;
 }
 
 div.version {
@@ -233,6 +234,7 @@ div.price {
 }
 
 div.description-container {
+     position: relative;
      display: flex;
      flex-direction: column;
      background-color: #ffffff;
@@ -243,6 +245,8 @@ div.description-container {
      border-top-right-radius: 50px;
      box-shadow: 0 0 0.2 rgb(0, 0, 0, 0.2);
      color: black;
+
+     overflow: visible;
 }
 
 div.features {
@@ -268,11 +272,15 @@ div.buy-bttn {
      display: flex;
      justify-content: center;
      align-content: center;
-     position: relative;
+     position: absolute;
      height: auto;
      width: 30%;
      border-radius: 20px;
      font-family: sans-serif;
+     color: #ffffff;
      background-color: #E56D2A;
+
+     right: 10%;
+     top: -7%;
 }
 
