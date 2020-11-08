@@ -171,10 +171,29 @@ main.product-zoomed {
      color: #ffffff;
 }
 
+div.top-container-product {
+     display: flex;
+     justify-content: space-between;
+     padding: 2em 2em 0 2em;
+}
+
+.top-container-product span {
+     font-size: 11vw;
+} 
+
+div.heart-container {
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     padding: 1em;
+     border-radius: 15px;
+     background-color: #E56D2A;
+}
+
 main.product-zoomed img {
      height: auto;
      width: 100%;
-     padding: 5em 0 0 5em;
+     padding: 3em 0 0 5em;
 }
 
 div.product-price {
