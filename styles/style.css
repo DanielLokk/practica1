@@ -156,3 +156,24 @@ span.price {
      font-weight: 100;
      font-size: 1.75em;
 }
+
+/* Second page */
+
+.color-title {
+     color: #ffffff;
+}
+
+main.product-zoomed {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+}
+
+div.product-showcase {
+     display: flex;
+     justify-content: center;
+     background-color: blue;
+     width: 85%;
+     height: auto;
+     padding-bottom: 3em;
+}
