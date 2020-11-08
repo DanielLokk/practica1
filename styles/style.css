@@ -231,3 +231,22 @@ div.price {
      position: relative;
      top: 12%;
 }
+
+div.description-container {
+     display: flex;
+     flex-direction: column;
+     background-color: #ffffff;
+     width: 100%;
+     height: auto;
+     padding: 3em 3em 7em 3em;
+     border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+     box-shadow: 0 0 0.2 rgb(0, 0, 0, 0.2);
+     color: black;
+}
+
+div.features {
+     display: flex;
+     justify-content: space-between;
+     align-content: center;
+}
