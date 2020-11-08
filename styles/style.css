@@ -22,11 +22,29 @@ header {
      padding-right: 10px;
 }
 
-h3 {
+/* No estic segur encara */
+.top-bar {
+     display: flex;
+     overflow: hidden;
+     white-space: nowrap;
+     justify-content: center;
+     align-items: center;
+     -webkit-tap-highlight-color: transparent;
+     transition: background-color 0.1s ease-in-out;
+     color: #BABABA;
+     text-decoration: none;
      font-family: 'Rajdhani', sans-serif;
-     letter-spacing: -3px;
+     letter-spacing: -2px;
      font-size: 2em;
      color: black;
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+.md-24 { font-size: 32px; }
+
+h3.top-bar {
+     padding-top: 5px;
 }
 
 footer {
@@ -65,17 +83,6 @@ footer {
      color: orange;
 }
 
-/* No estic segur encara */
-.top-bar {
-     display: flex;
-     overflow: hidden;
-     white-space: nowrap;
-     align-items: center;
-     -webkit-tap-highlight-color: transparent;
-     transition: background-color 0.1s ease-in-out;
-     color: #BABABA;
-     text-decoration: none;
-}
 
 nav.scrollmenu {
      overflow: auto;
@@ -87,7 +94,8 @@ nav.scrollmenu a {
      display: inline-block;
      color: #BABABA;
      text-align: center;
-     padding: 14px;
+     padding: 10px 4px 0px 5px;
+     margin-left: 5px;
      text-decoration: none;
 }
 
