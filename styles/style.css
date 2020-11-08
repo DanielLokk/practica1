@@ -165,15 +165,22 @@ span.price {
 
 main.product-zoomed {
      display: flex;
-     justify-content: center;
+     flex-direction: column;
      width: 100%;
+     background-color: #BABABA;
 }
 
-div.product-showcase {
-     display: flex;
-     justify-content: center;
-     background-color: blue;
-     width: 85%;
+main.product-zoomed img {
      height: auto;
-     padding-bottom: 3em;
+     width: 100%;
+     padding: 5em 0 0 5em;
 }
+
+div.product-price {
+     display: flex;
+     width: 100%;
+     height: auto;
+     justify-content: space-between;
+     padding: 1em;
+}
+
