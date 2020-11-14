@@ -128,42 +128,38 @@ a, div, nav, footer, head , section, main, img {
           padding-bottom: 3em;
      }
      
+     header {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding-left: 10px;
+          padding-right: 10px;
+     }
+     
+     .top-bar-1 {
+          display: flex;
+          overflow: hidden;
+          white-space: nowrap;
+          justify-content: center;
+          align-items: center;
+          -webkit-tap-highlight-color: transparent;
+          transition: background-color 0.1s ease-in-out;
+          color: #BABABA;
+          text-decoration: none;
+          font-family: 'Rajdhani', sans-serif;
+          letter-spacing: -2px;
+          font-size: 2em;
+          color: black;
+          margin-top: 0;
+          margin-bottom: 0;
+     }
+     
+     .md-24 { font-size: 32px; }
+     
+     h3.top-bar-1 {
+          padding-top: 5px;
+     }
 } 
-
-header {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     padding-left: 10px;
-     padding-right: 10px;
-}
-
-.top-bar-1 {
-     display: flex;
-     overflow: hidden;
-     white-space: nowrap;
-     justify-content: center;
-     align-items: center;
-     -webkit-tap-highlight-color: transparent;
-     transition: background-color 0.1s ease-in-out;
-     color: #BABABA;
-     text-decoration: none;
-     font-family: 'Rajdhani', sans-serif;
-     letter-spacing: -2px;
-     font-size: 2em;
-     color: black;
-     margin-top: 0;
-     margin-bottom: 0;
-}
-
-.md-24 { font-size: 32px; }
-
-h3.top-bar-1 {
-     padding-top: 5px;
-}
-
-
-
 
 /* Second page */
 
@@ -368,9 +364,33 @@ h4 {
           font-size: 1.25em;
      }
      
-     h5, hr, .nav-1 {
-          opacity: 0;
+     h5, hr, .nav-1, .hide-window-1 {
+          display: none;
      }
 
+     header {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding-left: 10px;
+          padding-right: 10px;
+     }
 
+     .top-bar-1 {
+          display: flex;
+          overflow: hidden;
+          white-space: nowrap;
+          justify-content: center;
+          align-items: center;
+          -webkit-tap-highlight-color: transparent;
+          transition: background-color 0.1s ease-in-out;
+          color: #BABABA;
+          text-decoration: none;
+          font-family: 'Rajdhani', sans-serif;
+          letter-spacing: -2px;
+          font-size: 2em;
+          color: black;
+          margin-top: 0;
+          margin-bottom: 0;
+     }
 } 
