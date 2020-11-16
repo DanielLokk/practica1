@@ -327,6 +327,8 @@ h4 {
           overflow: auto;
           white-space: nowrap;
           font-family: 'Mulish', sans-serif;
+          font-size: 15px;
+          text-transform: uppercase;
      }
 
      nav.scrollmenu-1 a {
@@ -375,9 +377,11 @@ h4 {
      header {
           display: flex;
           flex-direction: row;
+          align-items: center;
           justify-content: space-between;
           padding-left: 10px;
           padding-right: 10px;
+          margin-bottom: 5px;
      }
 
      .top-bar-1 {
@@ -429,4 +433,25 @@ h4 {
           background-color: #EFEFEF;
           padding-top: 4px;
      }
+
+     .left-header-1 {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 21px;
+          text-transform: uppercase;
+          font-feature-settings: 'cpsp' on;
+     }
+
+     .left-header-1 a {
+          text-decoration: none;
+          color: #9A9A9A;
+     }
+
+     h3.top-bar-1 {
+          position: absolute;
+          left: calc(50% - 148px/2);
+     }
+
 } 
