@@ -14,67 +14,78 @@
       rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="styles/style.css">
 </head>
 <body style="background-image: url(assets/fonsverd.png); margin: 0;">
-     
      <!-- row title -->
      <header>
-          <a href="" class="top-bar-1 color-title-1">
-               <i class="material-icons md-24 nav-icon-1">menu</i>
+          <div class="left-header-1 hide-on-mobile">
+               <a href=""><b>HOME</b></a>
+               <a href=""><b>LIST</b></a>
+               <a href=""><b>CART</b></a>
+               <a href=""><b>FAVORITE</b></a>
+          </div>
+          <a href="" class="hide-on-desktop top-bar-1">
+               <i class="hide-on-desktop material-icons md-24 nav-icon-1">menu</i>
           </a>
-          <h3 class="top-bar-1 color-title-1">Googles</h3>
-          <a href="" class="top-bar-1 color-title-1">
-               <i class="material-icons md-24 nav-icon-1">search</i>
+          <h3 class="top-bar-1">Googles</h3>
+          <a href="" class="top-bar-1 hide-on-desktop">
+               <i class="material-icons md-24 nav-icon-1 hide-on-desktop">search</i>
           </a>
+          <form class="form-search-1 hide-on-mobile">
+               <input type="text" placeholder="Search..." class="container-search-1"></input>
+               <button type="submit" class="search-button-1"><i class="material-icons md-24">search</i></button>
+          </form>
      </header>
 
-     <main class="product-zoomed-1">
-          <div class="top-container-product-1">
-               <span><b>Kiri Gold</b></span>
-               <div class="heart-container-1">
-                    <i class="material-icons md-24">favorite_border</i>
-               </div>
-          </div>
-          <img src="assets/side_glasses.png" alt="glasses">
-          <div class="product-price-1">
-               <div class="version-1">
-                    <span class="category-1">Version & Colors</span>
-                    <span class="response-category-1">Black and Gold<i class="material-icons md-24">keyboard_arrow_down</i></span>
-               </div>
-               <div class="price-1">
-                    <span class="category">Price</span>
-                    <span class="response-category-1 price-tag-1">225€</span>
-               </div>
-          </div>
-
-          
-          <div class="description-container-1">
-               <div class="buy-bttn-1">
-                    <h2>BUY</h2>
-               </div>
-               <section class="description-1">
-                    <h4>DETAILS</h4>
-                    <div class="features-1">
-                         <div>
-                              <span class="mini-title-1"><b>40mm</b></span>
-                              <span class="mini-detail-1">Lenses diameter</span>
-                         </div>
-                         <div>
-                              <span class="mini-title-1"><b>Titanium</b></span>
-                              <span class="mini-detail-1">Bridge material</span>
-                         </div>
-                         <div>
-                              <span class="mini-title-1"><b>Plastic</b></span>
-                              <span class="mini-detail-1">Rims material</span>
-                         </div>
+     <div class="center-product-1">
+          <main class="product-zoomed-1">
+               <div class="top-container-product-1">
+                    <span><b>Kiri Gold</b></span>
+                    <div class="heart-container-1 hide-on-desktop">
+                         <i class="material-icons md-24 hide-on-desktop">favorite_border</i>
                     </div>
-                    <h4>DESCRIPTION</h4>
-                    <p class="mini-detail-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit provident eius animi nisi cumque quis sit commodi cupiditate, aliquam quibusdam quia! Ex sint qui amet fugiat. Sunt ipsa voluptatibus dolorem.</p>
-               </section>
-          </div>
-     </main>
+               </div>
+               <img src="assets/side_glasses.png" alt="glasses">
+               <div class="product-price-1">
+                    <div class="version-1">
+                         <span class="category-1">Version & Colors</span>
+                         <span class="response-category-1">Black and Gold<i class="material-icons md-24">keyboard_arrow_down</i></span>
+                    </div>
+                    <div class="price-1">
+                         <span class="category">Price</span>
+                         <span class="response-category-1 price-tag-1">225€</span>
+                    </div>
+               </div>
 
+               
+               <div class="description-container-1">
+                    <div class="buy-bttn-1">
+                         <h2>BUY</h2>
+                    </div>
+                    <section class="description-1">
+                         <h4>DETAILS</h4>
+                         <div class="features-1">
+                              <div>
+                                   <span class="mini-title-1"><b>40mm</b></span>
+                                   <span class="mini-detail-1">Lenses diameter</span>
+                              </div>
+                              <div>
+                                   <span class="mini-title-1"><b>Titanium</b></span>
+                                   <span class="mini-detail-1">Bridge material</span>
+                              </div>
+                              <div>
+                                   <span class="mini-title-1"><b>Plastic</b></span>
+                                   <span class="mini-detail-1">Rims material</span>
+                              </div>
+                         </div>
+                         <h4>DESCRIPTION</h4>
+                         <p class="mini-detail-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit provident eius animi nisi cumque quis sit commodi cupiditate, aliquam quibusdam quia! Ex sint qui amet fugiat. Sunt ipsa voluptatibus dolorem.</p>
+                    </section>
+               </div>
+          </main>
+     </div>
 
 
      <!-- footer navigation bar -->
