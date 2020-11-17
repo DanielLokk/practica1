@@ -291,7 +291,7 @@ a, div, nav, footer, head , section, main, img {
      }
 } 
 
-
+/* Desktop */
 @media only screen and (min-width: 750px) {
 
      body {
@@ -480,37 +480,38 @@ a, div, nav, footer, head , section, main, img {
           font-family: 'Mulish', sans-serif;
           color: #ffffff;
      }
+
+     .row-title-product-1 {
+          display: grid;
+          grid-template-columns: 33% 66%;
+          align-items: center;
+     }
      
-     div.top-container-product-1 {
+     .top-container-product-1 {
           display: flex;
           justify-content: space-between;
           padding: 2em 2em 0 2em;
      }
      
      .top-container-product-1 span {
-          font-size: 3vw;
+          font-size: 4vw;
      } 
-     
-     div.heart-container-1 {
-          display: flex;
-          justify-items: center;
-          align-items: center;
-          padding: 1em;
-          border-radius: 15px;
-          background-color: #E56D2A;
-     }
-     
+
      main.product-zoomed-1 img {
+          content: url("../assets/glasses1.png");
           height: auto;
           width: 100%;
           padding: 3em 0 0 5em;
      }
      
+     #glasses-product-1 {
+     }
+
      div.product-price-1 {
           display: flex;
           width: 100%;
           height: auto;
-          justify-content: space-between;
+          justify-content: start;
           padding: 2em;
           margin-bottom: 1em;
      }
@@ -523,14 +524,15 @@ a, div, nav, footer, head , section, main, img {
      div.price-1 {
           display: flex;
           flex-direction: column;
+          padding-left: 2em;
      }
      
      .category-1 {
-          font-size: 4vw;
+          font-size: 1.5vw;
      }
      
      .response-category-1 {
-          font-size: 7vw;
+          font-size: 2vw;
      }
      
      .response-category-1 i {
@@ -561,17 +563,23 @@ a, div, nav, footer, head , section, main, img {
      
      .features-1 {
           display: flex;
-          justify-content: space-between;
+          justify-content: start;
           align-content: center;
      }
      
      .mini-title-1 {
-          font-size: 6vw;
+          font-size: 2vw;
      }
      
      .mini-detail-1 {
-          font-size: 4vw;
+          font-size: 1vw;
           color: #424242;
+     }
+
+     .feature-1 {
+          padding-right: 3em;
+          display: flex;
+          flex-direction: column;
      }
      
      h4 {
@@ -579,19 +587,20 @@ a, div, nav, footer, head , section, main, img {
      }
      
      .buy-bttn-1 {
+          
           display: flex;
           justify-content: center;
-          align-content: center;
+          align-items: center;
           position: absolute;
-          height: auto;
-          width: 30%;
-          border-radius: 20px;
+          height: 3em;
+          width: 3em;
+          border-radius: 10px;
           font-family: sans-serif;
           color: #ffffff;
           background-color: #E56D2A;
      
-          right: 10%;
-          top: -7%;
+          right: 5%;
+          top: 10%;
      }
 } 
 
