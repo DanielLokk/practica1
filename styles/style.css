@@ -332,7 +332,7 @@ a, div, nav, footer, head , section, main, img {
           box-shadow: 0px 0px 0.2px rgb(0, 0, 0, 0.2);
      }
 
-     nav.scrollmenu-1 {
+     .scrollmenu-1 {
           display: flex;
           justify-content: center;
           background-color: #E4B080;
@@ -343,18 +343,21 @@ a, div, nav, footer, head , section, main, img {
           text-transform: uppercase;
      }
 
-     nav.scrollmenu-1 a {
+     .scrollmenu-1 a {
           display: inline-block;
           color: #ffffff;
           text-align: center;
           box-shadow: 0px 0px 0.2px rgb(0, 0, 0, 0.2);
           padding: 15px 4px 15px 5px;
+          -webkit-transition: padding 0.4s ease-in-out;
+          transition: padding 0.4s ease-in-out;
           margin-left: 5px;
           text-decoration: none;
      }
 
-     nav.scrollmenu-1 a:hover {
+     .scrollmenu-1 a:hover {
           color: #983700;
+          padding: 15px 1.5em 15px 1.5em;
      }
 
      div.product-showcase-1 img {
